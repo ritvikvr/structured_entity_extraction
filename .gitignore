@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Local weights / caches
+fused_model/
+fused_model_evaled/
+fused_fp16/
+.cache/
+huggingface/
+
+# OS artifacts
+.DS_Store
